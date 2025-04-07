@@ -1,0 +1,7 @@
+# Ignore specific config file
+config.ini
+
+# Ignore directories
+/docs/
+/__pycache__/
+/chroma_db/

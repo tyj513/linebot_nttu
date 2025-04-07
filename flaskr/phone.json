@@ -1,0 +1,84 @@
+{
+    "type": "bubble",
+    "hero": {
+        "type": "image",
+        "url": "https://github.com/tyj513/audio/raw/main/phone.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+        }
+    },
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "text",
+                "text": "選擇電話",
+                "weight": "bold",
+                "size": "xl"
+            }
+        ]
+    },
+    "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "119救護車",
+                    "uri": "tel:119"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "110報警電話",
+                    "uri": "tel:110"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "24小時校安緊急專線",
+                    "uri": "tel:089-517119"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "微笑心輔專線電話",
+                    "uri": "tel:089-517880"
+                }
+            },
+            {
+                "type": "button",
+                "style": "link",
+                "height": "sm",
+                "action": {
+                    "type": "uri",
+                    "label": "性騷擾申訴專線電話",
+                    "uri": "tel:089-517349"
+                }
+            }
+        ],
+        "flex": 0
+    }
+}
