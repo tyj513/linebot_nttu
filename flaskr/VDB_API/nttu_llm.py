@@ -16,14 +16,14 @@ class NTTU_tools:
         self.tokenizer = AutoTokenizer.from_pretrained(
             CHAT_MODELS["offline"],
             trust_remote_code=True,
-            #     use_auth_token="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",
+            use_auth_token="",
         )
 
         self.llm = AutoModelForCausalLM.from_pretrained(  # 條參數
             CHAT_MODELS["offline"],
             device_map="auto",
             trust_remote_code=True,
-            #   use_auth_token="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",
+            use_auth_token="",
         ).eval()
 
         self.vectordb_manager = VectordbManager()
